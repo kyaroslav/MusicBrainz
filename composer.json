@@ -1,9 +1,9 @@
 {
-    "name": "mikealmond/musicbrainz",
+    "name": "kyaroslav/musicbrainz",
     "type": "library",
     "description": "A PHP library for accessing the MusicBrainz API",
     "keywords": ["musicbrainz", "library", "php", "api"],
-    "homepage": "https://github.com/mikealmond/musicbrainz",
+    "homepage": "https://github.com/kyaroslav/musicbrainz",
     "license": "MIT",
     "authors": [
         {
@@ -11,6 +11,12 @@
             "email": "mike.almond@gmail.com",
             "homepage": "http://mikealmond.com",
             "role": "Developer"
+        },
+        {
+            "name": "Yaroslav Kovalenko",
+            "email": "yaroslav23@gmail.com",
+            "homepage": "https://github.com/kyaroslav",
+            "role": "Contributor"
         }
     ],
     "require": {
