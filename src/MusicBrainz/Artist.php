@@ -121,5 +121,20 @@ class Artist
     {
         return $this->id;
     }
+
+    public function getAliases()
+    {
+        return isset($this->data['aliases']) ? $this->data['aliases'] : array();
+    }
+
+    public function getAliasesArray()
+    {
+        $result = array();
+        foreach ($this->getAliases() as $alias)
+        {
+            $result[] = $alias['name'];
+        }
+        return $result;
+    }
 }
 
