@@ -127,4 +127,14 @@ class Release
 
         return $releaseDate;
     }
+
+    /**
+     * Returns Raw data of Release
+     *
+     * @return array
+     */
+    public function getRawData()
+    {
+        return $this->data;
+    }
 }
