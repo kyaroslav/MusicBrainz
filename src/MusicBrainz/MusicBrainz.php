@@ -649,7 +649,7 @@ class MusicBrainz
         $this->validateFilter($releaseType, self::$validReleaseTypes);
 
         if (!empty($releaseStatus)
-            && !in_array('releases', $includes)
+            && !(in_array('releases', $includes) || $entity == 'release')
         ) {
             throw new Exception("Can't have a status with no release include");
         }
